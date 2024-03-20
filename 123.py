@@ -1,3 +1,5 @@
+
+
 arr = []
 N = int(input("N: "))
 for I in range(N):
