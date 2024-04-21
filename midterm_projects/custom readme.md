@@ -1,5 +1,3 @@
-![custom.png](..%2F..%2F..%2FOneDrive%2F%BB%E7%C1%F8%2F%BD%BA%C5%A9%B8%B0%BC%A6%2Fcustom.png)
-
 import numpy as np, cv2
 
 # 랜덤한 잡음을 추가하는 noise 변수를 정의한다
@@ -45,3 +43,5 @@ cv2.imshow("image", image)
 cv2.imshow('dst2', dst2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+![custom.png](custom.png)

@@ -1,5 +1,3 @@
-![carton.png](..%2F..%2F..%2FOneDrive%2F%BB%E7%C1%F8%2F%BD%BA%C5%A9%B8%B0%BC%A6%2Fcarton.png)
-
 import numpy as np
 import cv2
 
@@ -30,3 +28,5 @@ cv2.imshow("image", image)
 cv2.imshow("dst", dst)
 cv2.waitKey()
 cv2.destroyAllWindows()
+
+![carton.png](carton.png)
