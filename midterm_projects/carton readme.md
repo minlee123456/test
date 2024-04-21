@@ -1,3 +1,5 @@
+![carton.png](..%2F..%2F..%2FOneDrive%2F%BB%E7%C1%F8%2F%BD%BA%C5%A9%B8%B0%BC%A6%2Fcarton.png)
+
 import numpy as np
 import cv2
 

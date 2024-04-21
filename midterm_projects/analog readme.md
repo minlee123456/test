@@ -1,3 +1,5 @@
+![analog.png](..%2F..%2F..%2FOneDrive%2F%BB%E7%C1%F8%2F%BD%BA%C5%A9%B8%B0%BC%A6%2Fanalog.png)
+
 import numpy as np
 import cv2
 
@@ -61,4 +63,3 @@ cv2.imshow("image", image)
 cv2.imshow('dst2', dst2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-![analog.png](analog.png)
