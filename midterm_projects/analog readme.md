@@ -1,3 +1,5 @@
+![analog.png](analog.png)
+
 import numpy as np
 import cv2
 
@@ -61,6 +63,3 @@ cv2.imshow("image", image)
 cv2.imshow('dst2', dst2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
-
-![analog.png](analog.png)

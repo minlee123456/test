@@ -1,3 +1,5 @@
+![carton.png](carton.png)
+
 import numpy as np
 import cv2
 
@@ -28,5 +30,3 @@ cv2.imshow("image", image)
 cv2.imshow("dst", dst)
 cv2.waitKey()
 cv2.destroyAllWindows()
-
-![carton.png](carton.png)

@@ -1,3 +1,5 @@
+![dreamy.png](dreamy.png)
+
 import numpy as np, cv2
 
 # 채도의 값을 증가시켜주는 saturation_up를 정의한다
@@ -27,5 +29,3 @@ cv2.imshow("image", image)
 cv2.imshow('dst2', dst2)
 cv2.waitKey()
 cv2.destroyAllWindows()
-
-![dreamy.png](dreamy.png)

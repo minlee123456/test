@@ -1,3 +1,5 @@
+![vintage.png](vintage.png)
+
 import numpy as np, cv2
 
 # 랜덤한 잡음을 추가하는 noise 변수를 정의한다
@@ -42,5 +44,3 @@ cv2.imshow("image", image)
 cv2.imshow("dst2", dst2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
-![vintage.png](vintage.png)
