@@ -28,7 +28,7 @@ hist = cv2.calcHist([image], [0], None, bsize, ranges)
 
 bin_width = ranges[1]/bsize[0]
 high = search_value_idx(hist, bsize[0] - 1) * bin_width
-low  = search_value_idx((hist, 0) * bin_width
+low  = search_value_idx(hist, 0) * bin_width
 
 idx = np.arange(0, 256)
 idx = (idx - low) *255/(high-low)
@@ -43,8 +43,8 @@ hist_dst_img = draw_histo(hist_dst,(200,300))
 
 print("high balue = ", high)
 print("low balue = ", low)
-cv2.imshow("image", image):
+cv2.imshow("image", image);
 cv2.imshow("his_img", hist_img)
-cv2.imshow("dst", dst):
+cv2.imshow("dst", dst);
 cv2.imshow("his_det_img", hist_det_img)
 cv2.waitKey(0)

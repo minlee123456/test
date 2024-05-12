@@ -1,5 +1,4 @@
-import numpy as np
-import cv2
+import numpy as np, cv2
 
 image = np.zeros((200, 400), np.uint8)
 image[:] = 200

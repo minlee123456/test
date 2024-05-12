@@ -22,11 +22,11 @@ if image is None: raise Exception("영상 읽기 오류")
 data1= [0, -1, 0,
         -1, 5, -1,
         0, -1, 0]
-dat2= [[-1,-1,-1],
+data2= [[-1,-1,-1],
        [-1,9,-1],
        [-1,-1,-1]]
 mask1= np.array(data1, np.float32).reshape(3, 3)
-mask2= np.array(dat2, np.float32)
+mask2= np.array(data2, np.float32)
 
 sharpen1 = filter(image, mask1)
 sharpen2 = filter(image, mask2)
