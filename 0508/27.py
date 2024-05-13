@@ -52,7 +52,6 @@ class CNN(nn.Module):
 
         return x
 
-
 from torch.utils.data.dataloader import DataLoader
 from torch.optim.adam import Adam
 from torchvision.transforms import transforms, RandomCrop, RandomHorizontalFlip, ToTensor, Normalize, Compose
